@@ -1,9 +1,9 @@
-Name="nikoloz"
+Name="sandro"
 age=11
-haight=1.50
+height=1.58
 
 
 
 print(Name)
 print(age)
-print(haight)
+print(height)

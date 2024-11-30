@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>სრული ვებსაიტი</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>მხოლოდ ერთ გვერდზე</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">მთავარი</a></li>
+                <li><a href="#about">ჩვენ შესახებ</a></li>
+                <li><a href="#contact">კონტაქტი</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>მთავარი სექცია</h2>
+            <p>ეს არის ჩვენი ვებსაიტის მთავარი სექცია. აქ შეგიძლიათ იხილოთ ძირითადი ინფორმაცია.</p>
+            <img src="https://via.placeholder.com/400" alt="მაგალითი" />
+        </section>
+
+        <section id="about">
+            <h2>ჩვენ შესახებ</h2>
+            <p>ჩვენ ვართ ახალგაზრდა გუნდი, რომელიც ცდილობს შექმნას ინოვაციური პროექტები.</p>
+        </section>
+
+        <section id="contact">
+            <h2>კონტაქტი</h2>
+            <p>თუ გაქვთ შეკითხვები, შეგიძლიათ მოგვწეროთ:</p>
+            <form action="#" method="post">
+                <label for="name">სახელი:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">ელ. ფოსტა:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <input type="submit" value="გაგზავნა">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Goa</p>
+    </footer>
+</body>
+</html>
